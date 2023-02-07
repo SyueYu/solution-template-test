@@ -14,11 +14,11 @@ assets:
   exclude: ["**/.*"]
   default_page: index.html
 
-# endpoints:
-#   location: routes
-#   include: "**/*.lua"
-#   exclude: ["*_test.lua", "*_spec.lua", "**/.*"]
-#   cors: { "origin": ["http://localhost:*"] }
+endpoints:
+  location: routes
+  include: "**/*.lua"
+  exclude: ["*_test.lua", "*_spec.lua", "**/.*"]
+  cors: { "origin": ["http://localhost:*"] }
 
 # modules:
 #   location: modules
