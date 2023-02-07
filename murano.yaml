@@ -11,7 +11,7 @@ info:
 assets:
   location: assets
   include: "**/*"
-  exclude: ["**/.*"]
+  exclude: []
   default_page: index.html
 
 endpoints:
