@@ -1,3 +1,3 @@
---#ENDPOINT GET env
+--#ENDPOINT GET /env
 
 return murano.env
