@@ -1,0 +1,13 @@
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      name: "D and T_Digital Product Development/Platform.build"
+      ref: stable
+
+stages:
+- template: build-stage.yml@templates
+  parameters:
+    dockerfilePath: "$(Build.SourcesDirectory)/exchange/Dockerfile"
+    imageName: wha_solution_template
+    stableBranch: master
